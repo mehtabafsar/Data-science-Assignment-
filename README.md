@@ -4,22 +4,6 @@ This project is focused on building machine learning models to predict the overa
 
 The goal of the project is to predict the beer rating (review/overall) based on several input features such as the beer's alcohol content, aroma, appearance, and user-provided review text.
 
-Dataset
-The dataset used contains the following features:
-
-beer/ABV: Alcohol by volume of the beer.
-beer/style: The style or type of beer (e.g., Lager, IPA).
-review/appearance: The rating of the beer's appearance.
-review/aroma: The rating of the beer's aroma.
-review/palate: The rating of the beer's palate.
-review/taste: The rating of the beer's taste.
-review/text: The user-provided text review.
-Target Variable:
-review/overall: The overall rating of the beer (1.0 to 5.0).
-Feature Engineering:
-The review/text column is processed using TF-IDF vectorization, converting the text into numerical features to capture the relevant information.
-The beer/style is encoded into numerical values to handle categorical data.
-The other numeric columns are scaled using StandardScaler to ensure uniformity in the range of values.
 Models Implemented
 Three models were implemented and evaluated in this project:
 
