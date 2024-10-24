@@ -28,13 +28,19 @@ Random Forest Regressor:
 MAE: 0.3010
 RMSE: 0.3943
 R² Score: 0.6839
+
+
 Linear Regression:
 MAE: 0.2981
 RMSE: 0.3908
 R² Score: 0.6896
+
+
 Gradient Boosting Regressor:
 MAE: 0.2960
 RMSE: 0.3886
 R² Score: 0.6930
+
+
 Model Comparison:
 While Gradient Boosting performed the best in terms of all three metrics, both Linear Regression and Random Forest also produced competitive results. Gradient Boosting's ability to capture complex relationships led to slightly better performance, but all models explained a significant amount of variance in the data.
